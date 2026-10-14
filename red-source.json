@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "clip": "en-listen-1-00",
+  "text": "red.",
+  "provider": "Piper Cori retained PCM",
+  "file": "en-listen-1-00.wav",
+  "sha256": "a0da7a81eafa0cb5331628f32c96d9aaaabf5e26ca6b6b8d8a2ad095ad3bd952",
+  "original_file": "en-listen-1-00.original.wav",
+  "original_sha256": "833cd87b922e8e5ef030caf3a2d99d21e57ba096554d074832160b480c09830e",
+  "original_frames": 47615,
+  "start_sample": 0,
+  "end_sample": 10400,
+  "sample_rate": 16000,
+  "reason": "Remove unintended post-word speech after long silence; retain complete initial word and trailing quiet"
+}

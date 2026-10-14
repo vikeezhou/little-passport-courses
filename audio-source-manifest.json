@@ -1040,10 +1040,10 @@
         {
           "file": "en-listen-1-00.lpa",
           "wav": "en-listen-1-00.wav",
-          "sha256": "d66bf63e6a068debcc75c234e1a497459fb5225fbc13eb3f9a9e38486a8e499e",
-          "wav_sha256": "833cd87b922e8e5ef030caf3a2d99d21e57ba096554d074832160b480c09830e",
-          "bytes": 24352,
-          "duration_ms": 2976,
+          "sha256": "9ebcc2c6e617faf4fd34965abc16680ead9bc0b3930a6296772432e893bbb8d9",
+          "wav_sha256": "204ed89370efe6e15ef35898ec0962fe1d50b84550ba84bd87f6647e946d2c59",
+          "bytes": 5152,
+          "duration_ms": 607,
           "text_sha256": "d9c2dcf796417bf80f509a389810fc78a1964d6795a4e05de017e59d2ffde858"
         },
         {
@@ -2116,5 +2116,20 @@
     "file": "ui-2-00.wav",
     "sha256": "eab157e615317a7918194a0c74a867e2633ab66dce76113b69026516af308067",
     "usage": "Private use; retained source PCM; redistribution not assessed"
+  },
+  "red_source": {
+    "schema": 1,
+    "clip": "en-listen-1-00",
+    "text": "red.",
+    "provider": "Piper Cori retained PCM",
+    "file": "en-listen-1-00.wav",
+    "sha256": "a0da7a81eafa0cb5331628f32c96d9aaaabf5e26ca6b6b8d8a2ad095ad3bd952",
+    "original_file": "en-listen-1-00.original.wav",
+    "original_sha256": "833cd87b922e8e5ef030caf3a2d99d21e57ba096554d074832160b480c09830e",
+    "original_frames": 47615,
+    "start_sample": 0,
+    "end_sample": 10400,
+    "sample_rate": 16000,
+    "reason": "Remove unintended post-word speech after long silence; retain complete initial word and trailing quiet"
   }
 }
