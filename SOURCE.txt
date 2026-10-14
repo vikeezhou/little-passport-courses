@@ -1,0 +1,22 @@
+Little Passport V1 private-use audio provenance
+
+Text: original content generated specifically for this project; curriculum seed 20261013.
+Engine: existing rhasspy/Piper Windows 2023.11.14-2, read-only adult tool directory.
+Release: https://github.com/rhasspy/piper/releases/tag/2023.11.14-2
+Piper engine uses MIT software; bundled phonemization has separate eSpeak licenses.
+Only generated audio is bundled in device firmware; no TTS engine/model runs on-device.
+
+Voice/model repository revision: c10ece1aade47bb51c153c893d14e5bf8e5b7117
+English: en_GB-cori-medium, LibriVox public-domain recordings, trained from scratch.
+Card: https://huggingface.co/rhasspy/piper-voices/blob/c10ece1aade47bb51c153c893d14e5bf8e5b7117/en/en_GB/cori/medium/MODEL_CARD
+Chinese: zh_CN-huayan-medium, HuaYan_TTS data; dataset license marked Unknown.
+Card: https://huggingface.co/rhasspy/piper-voices/blob/c10ece1aade47bb51c153c893d14e5bf8e5b7117/zh/zh_CN/huayan/medium/MODEL_CARD
+Chinese model is fine-tuned from US-English Lessac medium according to that card.
+
+User explicitly permitted ignoring license obstacles for private use on 2026-10-13.
+This does not assert permission to publish or commercially redistribute these voices.
+Engine/model SHA-256 identities and every WAV/LPA/text binding are in manifest.json.
+zh_CN-huayan-medium-MODEL_CARD.txt, en_GB-cori-medium-MODEL_CARD.txt and mandarin-sources.json retain model source metadata.
+Speech waveform/format/non-silence/peak/length/hash are checked automatically.
+Human listening, Mandarin phonetic accuracy and speaker playback quality remain unverified.
+No paid inference API, cloud recording upload, STT or automatic pronunciation scoring.
